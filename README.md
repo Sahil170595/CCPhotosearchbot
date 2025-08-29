@@ -48,7 +48,7 @@ Because CCPhotosearchBot is **fully AWS-native**, there’s no local run require
    curl -X POST https://<api-gateway-endpoint>/search \
         -H "Content-Type: application/json" \
         -d '{"query": "Find pictures of cats on a sofa"}'
-````
+
 
 3. **Get Results**
    The system searches embeddings in OpenSearch, enriches with Rekognition labels, and returns the top matching S3 image URLs.
